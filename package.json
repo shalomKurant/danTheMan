@@ -1,0 +1,27 @@
+{
+  "name": "dansproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^4.2.2",
+    "html-loader": "^1.1.0",
+    "http-server": "^0.12.3",
+    "ts-loader": "^8.0.2",
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "angular": "^1.6.0",
+    "angular-right-click": "^0.1.1",
+    "angularjs": "0.0.1"
+  }
+}
